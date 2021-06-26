@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.clr{
+    clear: both;
+}
+.full_wrapper{
+    width: 100%;
+}
+.mr{
+    margin-right: 0;
+}
+.mt{
+    margin-top: 10px;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+/* all common css end  */
+.counter_up{
+    background: url(../images/pexels-gabriel-peter-696680.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.counter_up_overly{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.counter_up_item{
+    width: 270px;
+    float: left;
+    background: #fff;
+    margin-right: 10px;
+    text-align: center;
+}
+.counter_up_part h1{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    position: relative;
+}
+
+.counter_up_part h1:hover{
+    color: rgb(238, 234, 10);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.counter_up_part h1::after{
+   position: absolute;
+   width: 50px;
+   height: 5px;
+   background: rgb(236, 233, 6);
+   content: '';
+   top: 70%;
+   left: 530px;
+   border-radius:10px;
+   
+   
+  
+}
+.counter_up_part h1::before{
+    position: absolute;
+    width: 10px;
+    height: 5px;
+    background: rgb(255, 240, 240);
+    content: '';
+    top: 70%;
+    left: 590px;
+    border-radius:10px;
+    
+   
+ }
+.counter_up_item img{
+    padding-top: 5px;
+    padding-left: 10px;
+    
+}
+
+.counter_up_item h4{
+  padding: 5px 0px;
+  font-size: 26px;
+  font-weight: 400;
+  color: brown;
+}
+.counter_up_item h3{
+    
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(7, 58, 78, 0.884);
+    font-family: 'Roboto', sans-serif;
+}
+.counter_up_item h4:hover{
+    color: darkgreen;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.counter_up_item h3:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+
+
+
+/* lightbox */
+.lightbox{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.lightbox_part_one{
+    width: 260px;
+    float: left;
+    background: transparent;
+    padding-top: 200px;
+    margin-right: 10px;
+
+}
+.lightbox_part_one p{
+   display: inline;
+   text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: brown;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lightbox_part_one h3{
+    
+    text-align: center;
+     padding-bottom: 20px;
+     text-transform: uppercase;
+     font-weight: 700px;
+     color: #fff;
+     font-size: 26px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .lightbox_part_one h3:hover{
+    transition:0.8s;
+    color: brown;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -ms-transition:0.8s;
+    -o-transition:0.8s;
+}
+.lightbox_part_one p:hover{
+    transition:0.8s;
+    color: #fff;
+    -webkit-transition:0.8s;
+    -moz-transition:0.8s;
+    -ms-transition:0.8s;
+    -o-transition:0.8s;
+}
+
+.lightbox_part_two{
+    width: 900px;
+    float: left;
+    background: transparent;
+}
+.lightbox_item img{
+    width: 100%;
+}
+
+.lightbox_overly{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.lightbox_item{
+    width: 280px;
+    float: left;
+    margin-right: 15px;
+}
+
+
+
+
+/* lightbox */
+
+/* venobox */
+.venobox{
+    
+    background: url(../images/pexels-george-desipris-748626.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.venobox_overly{
+    padding-top: 550px;
+    padding-bottom: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+.rap{
+    text-align: center;
+}
+.rap p{
+    display: inline;
+    text-align: center;
+     padding-bottom: 20px;
+     text-transform: uppercase;
+     font-weight: 700px;
+     color: rgb(18, 180, 221);
+     font-size: 26px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .rap h3{
+     
+     text-align: center;
+      padding-bottom: 20px;
+      text-transform: uppercase;
+      font-weight: 700px;
+      color: rgb(223, 238, 9);
+      font-size: 26px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .rap h3:hover{
+     transition:0.8s;
+     color: brown;
+     -webkit-transition:0.8s;
+     -moz-transition:0.8s;
+     -ms-transition:0.8s;
+     -o-transition:0.8s;
+ }
+ .rap p:hover{
+     transition:0.8s;
+     color: #fff;
+     -webkit-transition:0.8s;
+     -moz-transition:0.8s;
+     -ms-transition:0.8s;
+     -o-transition:0.8s;
+ }
+.venobox_part_one{
+    width: 360px;
+    float: left;
+    margin-right: 30px;
+}
+.venobox_part_one img{
+    width: 100%;
+    border: 1 px solid rgb(48, 46, 46);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.venobox_part_one h4{
+    color: rgba(1, 8, 19, 0.781);
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.venobox_part_one h5{
+    text-align: center;
+    padding-top: 20px;
+    
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: brown;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.venobox_part_one h5:hover{
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.venobox_part_one h4:hover{
+    color: brown;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+/* venobox */
+/* countdown */
+.countdown{
+    padding-top: 50px;
+    padding-bottom: 170px;
+    background:rgba(248, 244, 6, 0.788);
+}
+.countdown_part{
+    text-align: center;
+    
+}
+.countdown_part h3{
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: rgb(19, 16, 16);
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.countdown_part p{
+    display: inline-block;
+    color: rgb(145, 136, 136);
+}
+.countdown_part p:hover{
+    transition: 0.5s;
+    color: rgb(228, 37, 94);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.countdown_part h3:hover{
+    transition: 0.5s;
+    color: rgb(20, 23, 220);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.count_down_item{
+    width: 270px;
+    float: left;
+    margin-right: 10px;
+    background: coral;
+}
+
+.count_down_item h3{
+    
+    text-transform: uppercase;
+    font-weight: 700px;
+    color: rgb(15, 14, 14);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px;
+}
+.count_down_item h4{
+    text-transform: uppercase;
+    font-weight: 900px;
+    color: rgb(231, 224, 224);
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* countdown */
